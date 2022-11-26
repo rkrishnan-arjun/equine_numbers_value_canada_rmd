@@ -91,8 +91,7 @@ province_plot <- horse_pop %>%
 province_plot
 ```
 
-
-## Reproducibility  with CLI 
+## Reproducibility with CLI  
 
 To render using console: `rmarkdown::render("doc/hist_horse_pop.Rmd")`	
 To render using terminal: `Rscript -e "rmarkdown::render('doc/hist_horse_pop.Rmd')"`	
